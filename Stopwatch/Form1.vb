@@ -12,7 +12,7 @@ Partial Public Class Form1
     Private Sub Form1_Resize(sender As Object, e As EventArgs) Handles MyBase.Resize
         label_Time.MinimumSize = New Size(Me.Width, 0)
 
-
+        'test
     End Sub
 
     Private Sub but_StartStop_Click(sender As Object, e As EventArgs) Handles but_StartStop.Click
